@@ -1,5 +1,5 @@
 // importing the burger model
-var burger_model = require("../models/burger_model")
+var burger_model = require("../models/buger_model")
 
 function burger_controller(app) {
     // creates get request 
