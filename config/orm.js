@@ -1,9 +1,10 @@
 var connection = require("./connection")
 var orm ={
 selectAll:function(tableName,cbModel){
-connection.query("select * from ??", tableName,function(error,burgerData){
+var statement=connection.query("select * from ??", tableName,function(error,burgerData){
     cbModel(burgerData)
 })
+console.log(statement.sql)
 }
 }
 

@@ -13,7 +13,7 @@ app.engine("handlebars", expressHandleBars({defaultLayout:"main" }))
 // setting the view engine to handlebars
 app.set("view engine", "handlebars")
 
-// creating public folder as the URL localhost path
+// creating public folder as the URL localhost path to display pictures in css and javaScript
 app.use(express.static("public"))
 
 // creating middleware parsing 
