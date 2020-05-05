@@ -1,0 +1,24 @@
+body {
+    width: 99%;
+    height: 900px;
+    background-color: #fc6;
+  }
+  
+  #top-bar {
+    margin-top: 28px;
+  }
+  
+  .spacing-reset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  .list-reset {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border: 0;
+  }
+  
+ 
