@@ -13,9 +13,14 @@ var burger_model = {
         orm.create("burgers", ["burger_name", "devoured"], [newBurger, false],function(burgerData){
             cbController(burgerData)
         })
+    },
+  
+    update:function(id,cbController){
+       orm.update("burgers", ["devoured","id"],[true, id],function(burgerData){
+           cbController(burgerData)
+       })   
     }
-
-
+   
 
 }
 

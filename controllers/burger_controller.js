@@ -19,8 +19,16 @@ console.log(burgerData)
              res.json(burgerData)
         })
     })
+     
 
+    app.put("/api/burgers/:id", function(req,res){
+        var id = req.params.id
+        burger_model.update(id,function(burgerData){
+            res.json(burgerData)
+        })
+    })
 }
 
 // exporting burger controller
 module.exports = burger_controller
+

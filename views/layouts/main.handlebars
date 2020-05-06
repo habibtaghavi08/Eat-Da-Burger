@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eat-Da-Burger</title>
+	<head>
+		<title>Eat-da-burger</title>
+		<meta charset="UTF-8">
+        {{!-- bootstrap cdn link --}}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		{{!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-theme.min.css"> --}}
+		<link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css" />
+	</head>
+	<body>
+		{{{ body }}}
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
- 
-</head>
-<body>
-    {{{body}}}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src = "/js/app.js"></script>
-</body>
+    {{!-- ajax --}}
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	{{!-- Add in jQuery --}}
+	{{!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> --}}
+	<script src="/assets/js/app.js"></script>
+	</body>
 </html>

@@ -12,6 +12,11 @@ create:function(tableName,columns,values,cbModel){
  })
 
  console.log(statement.sql)
+},
+update:function(tableName,columns,values,cbModel){
+    var statement = connection.query("update ?? set ?? = ? where ?? = ?",[tableName, columns[0],values[0],columns[1], values[1]],function(error,burgerData){
+        cbModel(burgerData)
+    })
 }
 
 
@@ -20,3 +25,4 @@ create:function(tableName,columns,values,cbModel){
 }
 
 module.exports = orm
+
