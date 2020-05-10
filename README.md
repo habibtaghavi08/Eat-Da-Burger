@@ -6,7 +6,7 @@ The Burger Application is a demo of the ability to utilize a database to use CRU
 
 ## Eat Da Burger web page
 
-![Eat-Da-Burger]/public/assets/images/burger.png
+![Eat-Da-Burger](/public/assets/images/burger.png)
 
 ## TECHNOLOGIES USED
 
@@ -40,7 +40,7 @@ What things you need:
 Open your Code editing software (example Visual Studio)
 
 Open the "Terminal" in studio
-perform a git clone (<https://github.com/habibtaghavi08/Eat-Da-Burger.git)>
+perform a git clone from my GitHub Repo [Eat-Da-Burger App on GitHub Repo](https://github.com/habibtaghavi08/Eat-Da-Burger.git)
 ```
 
 ### Installing
