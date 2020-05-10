@@ -33,8 +33,8 @@ These instructions will get you a copy of the project [Burger App Git hub Repo](
 
 What things you need:
 
-* code editing [Visual Studio](https://visualstudio.microsoft.com/)
-* work bench ui [MySQL](https://dev.mysql.com/doc/workbench/en/)
+* Code editing [Visual Studio](https://visualstudio.microsoft.com/)
+* Work bench ui [MySQL](https://dev.mysql.com/doc/workbench/en/)
 
 ```Open your Code editing software (example Visual Studio)
 ```
