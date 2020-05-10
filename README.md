@@ -62,9 +62,11 @@ Next open MySQL and create a new "connection"
 
 Now you will create your own .env file in the root folder and enter the following info.
 
-```DBhost = "localhost"
+```DotENV File
+   DBhost = "localhost"
    DBuser = "root" or your username
    DBPass = "root" or your pass word chosen
+
 ```
 
 Now go into the (/models/schema.sql) and (seeds.sql) files and copy the information and enter into your workbench.
