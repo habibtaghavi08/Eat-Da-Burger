@@ -7,6 +7,13 @@ var connection = mysql.createConnection({
     password:"password",
     database:"burgers_db"
 })
+// var connection = mysql.createConnection({
+//     host: process.env.DB_HOST,
+//     port:3306,
+//     user: process.env.USER,
+//     password: process.env.PASSWORD,
+//     database: process.env.DATABASE
+// })
 
 
 connection.connect(function(){
@@ -14,5 +21,4 @@ connection.connect(function(){
 })
 
 module.exports = connection;
-
 
