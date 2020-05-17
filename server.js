@@ -3,7 +3,7 @@ var express = require("express")
 
 var app = express()
 
-require('dotenv').config()
+require("dotenv").config()
 
 // creating port
 var port = process.env.PORT || 8000
