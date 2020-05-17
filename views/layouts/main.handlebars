@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Eat-da-burger</title>
-		<meta charset="UTF-8">
-        {{!-- bootstrap cdn link --}}
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-		{{!--My Style Sheet --}}
-		<link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css" >
-	</head>
-	<body>
 
-		<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-3">EAT - DA - BURGER</h1>
-    {{!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> --}}
-  </div>
-</div>
-		{{{ body }}}
+<head>
+	<title>Eat-da-burger</title>
+	<meta charset="UTF-8">
+	{{!-- bootstrap cdn link --}}
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	{{!--My Style Sheet --}}
+	<link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css">
+</head>
 
-    {{!-- ajax --}}
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-3">EAT - DA - BURGER</h1>
+			{{!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> --}}
+		</div>
+	</div>
+	{{{ body }}}
+
+	{{!-- ajax --}}
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	{{!-- Add in jQuery --}}
 	{{!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> --}}
 	<script src="/assets/js/app.js"></script>
-	</body>
+</body>
+
 </html>
