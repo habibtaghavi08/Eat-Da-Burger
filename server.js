@@ -25,7 +25,6 @@ app.use(express.json())
 // import the burger controller file
 var burger_controller = require("./controllers/burger_controller")(app)
 
-// creating server via app.listen 
 app.listen(port,function(){
     console.log("App Is Listening http://localhost:" + port)
 })
